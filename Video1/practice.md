@@ -1,5 +1,6 @@
 Intro to Variables:
 
+
 Declare a variable called myNumber and assign it the value 10.
 Declare a variable called myString and assign it the value "Hello, world!".
 Declare a variable called isTrue and assign it the boolean value true.
@@ -12,28 +13,40 @@ Declare a variable called 2ndVar with an invalid name and see what happens.
 Declare a variable called my var with an invalid name and see what happens.
 Declare a variable called myVariable with a valid name and assign it a value.
 Declare a variable called const with an invalid name and see what happens.
+
+
 Let Keyword:
+
 
 Declare a variable called myLetVar using let and assign it a value.
 Declare a variable called myVar using var and try to access it outside of its scope.
 Declare a variable called myBlockVar using let inside a block and try to access it outside of the block.
 Declare a variable called myLetVar using let and try to reassign it.
 Declare a variable called myVar using var and try to redeclare it.
+
+
 Const Keyword:
+
 
 Declare a constant called MY_CONST and assign it a value.
 Declare a constant called MY_CONST and try to reassign it.
 Declare a constant called MY_OBJECT and try to add a property to it.
 Declare a constant called MY_ARRAY and try to push a value to it.
 Declare a constant called MY_STRING and try to replace a character in it.
+
+
 String Indexing:
+
 
 Declare a variable called myString and assign it a string value. Access the first character of the string.
 Declare a variable called myString and assign it a string value. Access the last character of the string.
 Declare a variable called myString and assign it a string value. Get the length of the string.
 Declare a variable called myString and assign it a string value. Access the third character of the string.
 Declare a variable called myString and assign it a string value. Access the second-to-last character of the string.
+
+
 Useful String Methods:
+
 
 Declare a variable called myString and assign it a string value. Convert the string to all uppercase.
 Declare a variable called myString and assign it a string value. Convert the string to all lowercase.
@@ -41,7 +54,9 @@ Declare a variable called myString and assign it a string value. Replace all ins
 Declare a variable called myString and assign it a string value. Split the string into an array of substrings.
 Declare a variable called myString and assign it a string value. Find the index of a specific character in the string.
 
+
 typeof, String to Number, Number to String Conversion:
+
 
 Declare a variable called myString and assign it a string representation of a number. Convert the string to a number using Number() or parseInt() and store it in a variable.
 Declare a variable called myNumber and assign it a number. Convert the number to a string using String() and store it in a variable.
@@ -49,7 +64,9 @@ Declare a variable called myValue and assign it a value of any type. Use the typ
 Declare a variable called myNumber and assign it a number. Convert the number to a string using template strings.
 Declare a variable called myString and assign it a string. Convert the string to a number using the + operator and store it in a variable.
 
+
 String Concatenation:
+
 
 Declare two variables called firstName and lastName and assign them string values. Use string concatenation to create a full name and store it in a variable.
 Declare a variable called myString and assign it a string value. Use string concatenation to add another string to the end of myString.
@@ -57,7 +74,9 @@ Declare a variable called myString and assign it a string value. Use string conc
 Declare a variable called myString and assign it a string value. Use string concatenation to add a variable value to the end of myString.
 Declare a variable called myString and assign it a string value. Use string concatenation to add a variable value to the middle of myString.
 
+
 Template Strings:
+
 
 Declare two variables called firstName and lastName and assign them string values. Use template strings to create a full name and store it in a variable.
 Declare a variable called myString and assign it a string value. Use template strings to add another string to the end of myString.
@@ -65,14 +84,20 @@ Declare a variable called myString and assign it a string value. Use template st
 Declare a variable called myString and assign it a string value. Use template strings to add a variable value to the end of myString.
 Declare a variable called myString and assign it a string value. Use template strings to add a variable value to the middle of myString.
 
+
 Undefined, Null, BigInt:
+
 
 Declare a variable called myVar and don't assign it a value. Use typeof to check its type.
 Declare a variable called myVar and assign it the value null. Use typeof to check its type.
 Declare a variable called myVar and assign it the value undefined. Use typeof to check its type.
 Declare a variable called myBigInt and assign it a large number using the BigInt() function.
 Declare a variable called myBigInt and assign it a large number using template strings.
+
+
 Booleans and Comparison Operators:
+
+
 
 Declare a variable called myNum and assign it a number. Use comparison operators to check if myNum is greater than 10 and less than 20. If so, log "The number is between 10 and 20" to the console. Otherwise, log "The number is not between 10 and 20".
 Declare two variables called myNum1 and myNum2 and assign them number values. Use the equality operator to check if myNum1 is equal to myNum2. If so, log "The numbers are equal" to the console. Otherwise, log "The numbers are not equal".
@@ -80,21 +105,29 @@ Declare a variable called myStr and assign it a string. Use the equality operato
 Declare two variables called myBool1 and myBool2 and assign them boolean values. Use logical operators to check if myBool1 is true and myBool2 is false. If so, log "The condition is true" to the console. Otherwise, log "The condition is false".
 Declare a variable called myNum and assign it a number. Use the ternary operator to check if myNum is even. If it is, log "The number is even" to the console. Otherwise, log "The number is odd".
 
+
 if else , truthy and falsy values
+
 
 Write a function that takes in a number as input and returns "Positive" if the number is positive, "Negative" if the number is negative, and "Zero" if the number is zero.
 Write a function that takes in a string as input and returns "Truthy" if the string is not empty or null, and "Falsy" if the string is empty or null.
 Write a function that takes in an array of numbers and returns the sum of all positive numbers in the array.
 Write a function that takes in a number as input and returns "Even" if the number is even, and "Odd" if the number is odd.
 Write a function that takes in two numbers as input and returns "Equal" if the numbers are equal, "Greater" if the first number is greater than the second number, and "Less" if the first number is less than the second number.
+
+
 Ternary operator
+
 
 Write a function that takes in a number as input and returns "Positive" if the number is positive, and "Negative" otherwise, using the ternary operator.
 Write a function that takes in a string as input and returns the string in all uppercase letters if the length of the string is greater than 5, and the string in all lowercase letters otherwise, using the ternary operator.
 Write a function that takes in an array of numbers and returns "Array contains positive numbers" if the array contains at least one positive number, and "Array contains no positive numbers" otherwise, using the ternary operator.
 Write a function that takes in a number as input and returns "Even" if the number is even, and "Odd" otherwise, using the ternary operator.
 Write a function that takes in two numbers as input and returns "Equal" if the numbers are equal, "Greater" if the first number is greater than the second number, and "Less" if the first number is less than the second number, using the ternary operator.
+
+
 And Or Operator
+
 
 Write a function that takes in two numbers as input and returns "True" if both numbers are positive, and "False" otherwise, using the AND operator.
 Write a function that takes in a string as input and returns "True" if the string contains the letter "e" OR the letter "a", and "False" otherwise, using the OR operator.
@@ -102,21 +135,29 @@ Write a function that takes in an array of numbers and returns "True" if at leas
 Write a function that takes in a number as input and returns "True" if the number is greater than 10 OR less than 5, and "False" otherwise, using the OR operator.
 Write a function that takes in two strings as input and returns "True" if both strings have the same length AND contain the same letters, and "False" otherwise, using the AND and OR operators
 
+
 Nested If else:
+
 
 Write a program that takes three numbers as input from the user and finds the largest number using nested if else statements.
 Create a program that checks the validity of a password entered by the user. The password should contain at least one uppercase letter, one lowercase letter, and one special character.
 Write a program that takes the age of a person as input and determines whether they are eligible to vote or not. If the person is under 18, the program should display a message saying they are not eligible to vote.
 Create a program that calculates the grade of a student based on their score. The program should display the letter grade (A, B, C, D, F) based on the following criteria: A (>=90), B (>=80 and <90), C (>=70 and <80), D (>=60 and <70), F (<60).
 Write a program that takes a year as input and determines whether it is a leap year or not using nested if else statements.
+
+
 If elseif:
+
 
 Write a program that takes an input number from the user and checks whether it is positive, negative, or zero using if-elseif statements.
 Create a program that determines the type of a triangle based on the length of its sides. The program should display "equilateral" if all sides are equal, "isosceles" if two sides are equal, and "scalene" if all sides are different.
 Write a program that takes a number from the user and determines whether it is odd or even using if-elseif statements.
 Create a program that calculates the discount based on the total amount of a purchase. The program should display "10% discount" if the total amount is greater than or equal to $100 and less than $500, "20% discount" if the total amount is greater than or equal to $500 and less than $1000, and "30% discount" if the total amount is greater than or equal to $1000.
 Write a program that takes a character as input and determines whether it is a vowel or a consonant using if-elseif statements.
+
+
 Switch statement:
+
 
 Write a program that takes a month number (1-12) as input and displays the corresponding month name using a switch statement.
 Create a program that determines the grade of a student based on their score. The program should display the letter grade (A, B, C, D, F) using a switch statement based on the following criteria: A (>=90), B (>=80 and <90), C (>=70 and <80), D (>=60 and <70), F (<60).
