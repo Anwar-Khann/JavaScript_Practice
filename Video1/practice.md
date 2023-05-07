@@ -174,13 +174,7 @@ Create a program that takes an array of numbers as input and removes the last el
 Write a program that takes an array of strings as input and adds a new string to the beginning using the unshift method.
 Create a program that takes an array of numbers as input and removes the first element using the shift method.
 Write a program that takes an array of strings as input and reverses the order of the elements using push and pop methods.
-Primitive vs reference data types:
 
-Create a program that demonstrates the difference between primitive and reference data types in JavaScript.
-Write a program that takes two variables of different data types and assigns one to the other. Observe how the primitive and reference data types behave in this scenario.
-Create a program that takes an array of numbers as input and adds a new element to it. Observe how the primitive and reference data types behave in this scenario.
-Write a program that takes two variables of the same data type and changes one of them. Observe how the primitive and reference data types behave in this scenario.
-Create a program that takes an array of strings as input and sorts it in alphabetical order. Observe how the primitive and reference data types behave in this scenario.
 Clone array, concat, spread operator:
 
 Write a program that takes an array of numbers as input and creates a copy of it using the slice method.
